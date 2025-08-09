@@ -116,8 +116,5 @@ def solve(board):
             board[row,col] = 0
     return False
 
-def hint(board):
-    find = empty(boar)
-    
 
 window.mainloop()
