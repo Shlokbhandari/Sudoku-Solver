@@ -2,7 +2,8 @@
 
 A sleek and intuitive Sudoku solver with a graphical user interface built using Python. This application allows users to input any Sudoku puzzle and find its solution instantly using an efficient backtracking algorithm.
 
-![Sudoku Solver GUI](https://placehold.co/600x400/2d3748/ffffff?text=Sudoku+Solver+GUI)
+![Sudoku Solver Unsolved GUI](/Screenshots/unsolved.png)
+![Sudoku Solver Solved GUY)(/Screenshots/solved.png)
 *(A screenshot of the clean 9x9 grid interface with a sample puzzle entered)*
 
 ---
