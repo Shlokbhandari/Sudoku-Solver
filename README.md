@@ -7,7 +7,7 @@ A sleek and intuitive Sudoku solver with a graphical user interface built using 
 *(A screenshot of the clean 9x9 grid interface with a sample puzzle entered)*
 
 ![Sudoku Solver Solved GUI](/Screenshots/solved.png)
-
+*(A screenshot of the solved puzzle given above)*
 
 ---
 
