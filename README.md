@@ -31,9 +31,9 @@ A sleek and intuitive Sudoku solver with a graphical user interface built using 
     pip install numpy
     ```
 
-2.  **Run the Application:** Save the code as a Python file (e.g., `sudoku_gui.py`) and run it from your terminal:
+2.  **Run the Application:** Save the code as a Python file (e.g., `main.py`) and run it from your terminal:
     ```bash
-    python sudoku_gui.py
+    python main.py
     ```
 
 3.  **Enter the Puzzle:** Click on any cell in the grid and type a number from 1 to 9. Fill in all the given numbers of your puzzle. Leave the cells you want the solver to fill in empty.
@@ -61,4 +61,3 @@ The core of this solver is a **backtracking algorithm**. Here's how it works in 
 3.  **Recurse:** If a valid number is found, it tentatively places it on the board and then calls itself to move on to the next empty cell.
 4.  **Backtrack:** If it reaches a point where no valid numbers can be placed in a cell, it means a previous choice was wrong. It "backtracks" to the previously modified cell, erases the number it placed there, and tries the next valid number.
 5.  **Solution:** This process continues until every cell is filled, at which point the puzzle is solved! If it tries all possibilities and can't find a solution, it concludes the puzzle is unsolvable.
-# Sudoku-Solver
